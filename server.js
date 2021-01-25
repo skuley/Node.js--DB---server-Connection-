@@ -16,7 +16,7 @@ app.get('/about', function (req, res) {
     res.render('about.html')
 });
 
-const server = app.listen(3000, () =>{
+const server = app.listen(5654, () =>{
     console.log('Start Server : localhost:3000');
 });
 
